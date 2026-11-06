@@ -2,6 +2,12 @@
 
 Convert arbitrary files into black/white 1080p 30fps MP4 videos and recover the original bytes with SHA-256 verification. Optional nearest-neighbor 4K export does not increase capacity. Runs on the cloud server, not the user's computer.
 
+## Google Colab (no local installation)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chatomar169-creator/video/blob/main/notebooks/Binary_Video_Colab.ipynb)
+
+Open the notebook, connect to a CPU runtime, run setup, then run either the encode or decode cell. Arabic instructions and upload/download buttons are included. Processing happens in Colab; no web server or port forwarding is needed. Download results before the temporary session ends. YouTube upload is not included.
+
 ## Run
 
 Run these commands on your **cloud Linux server** (Python 3.12+ required):
